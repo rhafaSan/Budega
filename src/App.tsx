@@ -1,6 +1,9 @@
+import { Router } from "./components/Routes/routes"
+
+
 function App() {
   return (
-   <div>Olá mmundo</div>
+    <Router/>
   )
 }
 
