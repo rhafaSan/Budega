@@ -1,6 +1,8 @@
+import { Button } from "../../components/Button"
+
 export const Login = () => {
     return(
-        <h1>Olá mundo</h1>
+        <Button label="Olá" type=""/>
     )
 
 }

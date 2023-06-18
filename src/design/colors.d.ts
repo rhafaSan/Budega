@@ -1,20 +1,9 @@
-// styled.d.ts
 import 'styled-components';
-interface IPalette {
-  main: string
-  contrastText: string
-}
+
+import Theme from './colors'
+
+export type ITheme = typeof Theme
+
 declare module 'styled-components' {
-  export interface DefaultTheme {
-    borderRadius: string
-    palette: {
-      common: {
-        black: string
-        white: string
-      }
-      primary: IPalette
-      secondary: IPalette,
-      tertiary: IPalette
-   }
-  }
+  export interface DefaultTheme extends ITheme {}
 }
