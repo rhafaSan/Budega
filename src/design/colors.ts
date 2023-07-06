@@ -1,7 +1,6 @@
 // theme.ts
-import { DefaultTheme, createGlobalStyle } from 'styled-components'
 
-const Theme: DefaultTheme = {
+const Theme = {
   common: {
     black: '#313131',
     white: '#ffffff'
@@ -19,11 +18,5 @@ const Theme: DefaultTheme = {
     main: '#878787'
   }
 };
-
-export const GlobalStyle = createGlobalStyle`
-  body{
-    background-color: ${props => props.theme.colors.common.white};
-  }
-`
 
 export default Theme;

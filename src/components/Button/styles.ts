@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  color: ${(props) => props.theme.color.secundary.main};
-  background-color: ${(props) => props.theme.color};
-
-  border: ${(props) => props.theme.border.style};
-  border-radius: ${(props) => props.theme.border.radius};
-
-  font-size: ${(props) => props.theme.font.big};
+  background-color: ${(props) => props.theme.primary.main};
+  color: ${(props) => props.theme.common.white};
+  border: none;
+  border-radius: 4px;
+  width: 250px;
+  height: 46px;
+  &:hover{
+    background-color: ${(props) => props.theme.secondary.main};
+    cursor: pointer;
+  }
 `;

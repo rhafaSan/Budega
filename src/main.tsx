@@ -5,6 +5,7 @@ import  Theme  from './design/colors.ts'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <ThemeProvider theme={Theme} >
+    
     <App />
   </ThemeProvider>
   
