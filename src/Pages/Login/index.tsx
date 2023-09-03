@@ -1,10 +1,8 @@
 import { Button } from "../../components/Button"
 
 export const Login = () => {
-    return(
-        <div>
-            <Button label="Aqui" />
-        </div>
+    return (
+        <Button label="Entrar" type="secondary" />
     )
 
 }
