@@ -1,6 +1,27 @@
+import { BodyForm, Form, HeaderForm, LeftContainer, LoginForm, MainContainer, TextArea } from "./styles"
+
 export const Login = () => {
     return(
-        <h1>Olá mundo</h1>
+        <MainContainer>
+            <LeftContainer>
+                <TextArea>
+                <p>Mais que venda</p>
+                <span>Conceito</span>
+
+                </TextArea>
+            </LeftContainer>
+            <LoginForm>
+                <BodyForm>
+                    <HeaderForm>
+                        <p>Budega</p>
+                    </HeaderForm>
+                    <Form >
+                        <input />
+                        <input />
+                    </Form>
+                </BodyForm>
+            </LoginForm>
+        </MainContainer>
     )
 
 }
